@@ -2,4 +2,4 @@
 
 > By 南京大学软件学院 谢博帆
 
-[GitHub](https://github.com/nboxff) [docsify](https://docsify.js.org/#/quickstart)  [Get Started]()
+[GitHub](https://github.com/nboxff) [docsify](https://docsify.js.org/#/quickstart)  [Get Started](/README.md)
