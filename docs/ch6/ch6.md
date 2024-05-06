@@ -71,7 +71,7 @@
 
 ### 邻接模型
 
-<img src="D:\Myfl\DatabaseDevelopment\docsify\DataBaseDev2024\docs\ch6\ch6.assets\image-20240506141544960.png" alt="image-20240506141544960" style="zoom:67%;" />
+![](image-20240506141544960.png)
 
 <center>表的每一行描述一个部队，parent_id指向树中的上级部队</center>
 
@@ -89,13 +89,13 @@
 
 就像我们写论文的标号一样，`1.1  1.1.2 2.1`
 
-<img src="D:\Myfl\DatabaseDevelopment\docsify\DataBaseDev2024\docs\ch6\ch6.assets\image-20240506143341373.png" alt="image-20240506143341373" style="zoom:67%;" />
+![](image-20240506143341373.png)
 
 表中有两个索引，在materialized_path上的唯一性索引以及在commander上的索引，正确的设计应该增加id字段。
 
 示例：
 
-<img src="D:\Myfl\DatabaseDevelopment\docsify\DataBaseDev2024\docs\ch6\ch6.assets\image-20240506143444490.png" alt="image-20240506143444490" style="zoom:67%;" />
+![](image-20240506143444490.png)
 
 **问题：**仍然没解决归一化的问题，`3.1.3.1`中仍然包含了`3.1`。
 
@@ -103,7 +103,7 @@
 
 ### 嵌套集合模型
 
-<img src="D:\Myfl\DatabaseDevelopment\docsify\DataBaseDev2024\docs\ch6\ch6.assets\image-20240506144109332.png" alt="image-20240506144109332" style="zoom: 67%;" />
+![](image-20240506144109332.png)
 
 <center>每个结点都有一个左编号和右编号，有点像DFS序</center>
 
@@ -123,7 +123,7 @@
 
 Oracle四行解决：
 
-<img src="D:\Myfl\DatabaseDevelopment\docsify\DataBaseDev2024\docs\ch6\ch6.assets\image-20240506151135967.png" alt="image-20240506151135967" style="zoom:50%;" />
+![](image-20240506151135967.png)
 
 MySQL：递归
 
