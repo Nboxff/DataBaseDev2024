@@ -5,3 +5,6 @@
 - [Ch5 事务处理与恢复](/ch5/ch5)
 - [Ch6 数据库设计](/ch6/ch6)
 - [Ch7 SQL优化的基础](/ch7/ch7)
+- [Ch8 SQL实例解析](/ch8/ch8)
+- [Ch9 期末复习](/ch9/ch9)
+- [Ex1 SQL练习](/ex1/ex1)
